@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
-import './index.css'; // Estilos del modal
+import './index.css';
 
 function Modal({ open, onClose, onAccept }) {
   if (!open) return null;

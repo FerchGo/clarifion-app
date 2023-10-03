@@ -1,5 +1,6 @@
 import React from 'react'
 import clarifion from './assets/clarifion4_720x.webp'
+import './index.css'
 
 const DecorativeBox = () => {
   return (

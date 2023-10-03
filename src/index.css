@@ -1,13 +1,14 @@
 
-
 :root{
-  width: 1500px;
+  width: 100%;
+  height: 100%;
   padding-bottom: 0px;
   padding-top: 0px;
   padding-right: 0px;
   padding-left: 0px;
   margin-left: 0px;
   margin-right: 0px;
+  margin: 0px;
 }
 
 .layout{
@@ -51,12 +52,13 @@
 }
 
 .layout-2{
-  width: 209px;
+  width: 219px;
   height: 22px;
   top: 15px;
   left: 1154px;
-  display: inline-flex;
-  justify-content: space-around;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .brands{
@@ -150,8 +152,10 @@
 }
 
 .bannimg{
-  margin-top: -3px;
+  margin-top: 10px;
   margin-right: 10px;
+  height: 35px;
+  width: 40px;
 }
 
 .newsection{
@@ -185,8 +189,8 @@
 }
 
 .deboxtw{
-  grid-column: 2; /* Ocupa la segunda columna */
-  grid-row: 1 / span 2; /* Ocupa dos filas */
+  grid-column: 2; 
+  grid-row: 1 / span 2;
   height: 799px;
   top: 40px;
   left: 655px;
@@ -195,10 +199,10 @@
 }
 
 .deboxthree{
-  grid-column: 1; /* Ocupa la primera columna */
-  grid-row: 2; /* Ocupa la segunda fila */
-  width: 575px;
-  height:219px;
+  grid-column: 1; 
+  grid-row: 2; 
+  width: 530px;
+  height:189px;
   top: 655px;
   left: 40px;
   padding: 24px;
@@ -260,7 +264,7 @@
   width: 90px;
   height: 40px;
   border-radius: 400px;
-  margin: 10px;
+  margin-bottom: 25px;
   background: #FAFAFA;
 }
 
@@ -308,6 +312,7 @@
   border-radius: 10px;
   background-color: #2C7EF8;
   padding: 5px;
+  display: flex;
 }
 
 .diffecontent{
@@ -390,6 +395,8 @@
   height: 22px;
   gap: 16px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 13px;
 }
 
@@ -417,10 +424,11 @@
 }
 
 .frame472{
-  width: Fill 550px;
+  width: 550px;
   height: 98px;
   gap: 16px;
   margin-top: 22px;
+  display: block;
 }
 
 .chul1{
@@ -428,6 +436,7 @@
   height: 22px;
   gap: 12px;
   display: flex;
+  align-items: center;
   margin-top: 13px;
 }
 
@@ -436,6 +445,7 @@
   height: 22px;
   gap: 12px;
   display: flex;
+  align-items: center;
   margin-top: 13px;
 }
 
@@ -444,6 +454,7 @@
   height: 22px;
   gap: 12px;
   display: flex;
+  align-items: center;
   margin-top: 13px;
 }
 
@@ -478,7 +489,9 @@
   gap: 10px;
   background: #EDF3FD;
   display: flex;
+  justify-content: center;
   align-items: center;
+  align-content: center;
   margin-top: 20px;
 }
 
@@ -487,6 +500,7 @@
   height: 32px;
   gap: 16px;
   display: flex;
+  align-items: center;
   margin: 15px;
 }
 
@@ -524,6 +538,8 @@
 
 .btnsito{
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .btnsito2{
@@ -539,7 +555,8 @@
 }
 
 .arrowicon{
-  width: 17px;
+  width: 27px;
+  height: 4vh;
   border: 2px;
   color: #FFFFFF;
   border: #FFFFFF;
@@ -704,10 +721,11 @@
   width: 1500px;
   height: 88px;
   top: 1291px;
-  padding: 24px, 119px, 24px, 127px;
+  padding: 14px, 119px, 14px, 127px;
   background: #252F3D;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .ftrone{
@@ -719,6 +737,7 @@
   border-radius: 4px;
   gap: 16px;
   display: flex;
+  align-items: center;
   margin-left: 45px;
   margin-top: 35px;
 }
@@ -749,6 +768,7 @@
   left: 1120px;
   gap: 16px;
   display: flex;
+  align-items: center;
   margin-top: 35px;
 }
 
@@ -797,130 +817,6 @@
   padding: 10px 20px;
   margin: 0 10px;
   cursor: pointer;
-}
-
-/* Estilos opcionales para hacerlo más estético */
-
-/* responsive resign */
-
-@media screen and (max-width: 768px) {
-    /* Contenedor principal */
-.container {
-  width: 90vw; /* 90% del ancho de la ventana gráfica */
-  padding: 2vh; /* 2% del alto de la ventana gráfica para el espaciado interior */
-  margin: 5vh auto; /* 5% del alto de la ventana gráfica para el margen superior e inferior, centrado horizontalmente */
-  flex-direction: column; /* Organiza elementos verticalmente */
-  align-items: center; /* Centra los elementos horizontalmente */
-}
-
-/* Encabezado */
-.header {
-  width: 100vw; /* 100% del ancho de la ventana gráfica */
-  padding: 2vh 0; /* 2% del alto de la ventana gráfica para el espaciado superior e inferior */
-  text-align: center; /* Centra el texto horizontalmente */
-  font-size: 4vh; /* 4% del alto de la ventana gráfica para el tamaño de fuente */
-}
-
-/* Texto de encabezado */
-.headertext {
-  font-size: 3.5vh; /* 3.5% del alto de la ventana gráfica para el tamaño de fuente */
-}
-
-/* Menú */
-.menu {
-  width: 100vw; /* 100% del ancho de la ventana gráfica */
-  padding: 2vh 0; /* 2% del alto de la ventana gráfica para el espaciado superior e inferior */
-  text-align: center; /* Centra el texto horizontalmente */
-  font-size: 3vh; /* 3% del alto de la ventana gráfica para el tamaño de fuente */
-}
-
-/* Elementos del menú */
-.menu-item {
-  margin: 2vh 0; /* 2% del alto de la ventana gráfica para el margen superior e inferior */
-}
-
-/* Contenido principal */
-.main-content {
-  width: 100vw; /* 100% del ancho de la ventana gráfica */
-  padding: 2vh; /* 2% del alto de la ventana gráfica para el espaciado interior */
-  flex-direction: column; /* Organiza elementos verticalmente */
-  align-items: center; /* Centra los elementos horizontalmente */
-}
-
-/* Imagen principal */
-.main-image {
-  width: 80vw; /* 80% del ancho de la ventana gráfica */
-  max-width: 70vh; /* 70% del alto de la ventana gráfica como tamaño máximo */
-}
-
-/* Título del contenido */
-.content-title {
-  font-size: 3.5vh; /* 3.5% del alto de la ventana gráfica para el tamaño de fuente */
-}
-
-/* Texto principal */
-.main-text {
-  font-size: 2.5vh; /* 2.5% del alto de la ventana gráfica para el tamaño de fuente */
-}
-
-/* Botón de acción */
-.action-button {
-  width: 80vw; /* 80% del ancho de la ventana gráfica */
-  padding: 1.5vh; /* 1.5% del alto de la ventana gráfica para el espaciado interior */
-  font-size: 3vh; /* 3% del alto de la ventana gráfica para el tamaño de fuente */
-  margin: 2vh 0; /* 2% del alto de la ventana gráfica para el margen superior e inferior */
-}
-
-/* Pie de página */
-.footer {
-  width: 100vw; /* 100% del ancho de la ventana gráfica */
-  padding: 2vh; /* 2% del alto de la ventana gráfica para el espaciado interior */
-  justify-content: center; /* Centra los elementos horizontalmente */
-  font-size: 2.5vh; /* 2.5% del alto de la ventana gráfica para el tamaño de fuente */
-}
-
-/* Contenedor principal */
-.container {
-  width: 100%; /* Ancho completo del contenedor */
-  padding: 10px; /* Espaciado interior */
-  box-sizing: border-box; /* Incluye el padding en el ancho total */
-  display: flex; /* Utiliza Flexbox para organizar elementos */
-  flex-direction: column; /* Organiza elementos verticalmente */
-  align-items: center; /* Centra los elementos horizontalmente */
-  text-align: center; /* Centra el texto horizontalmente */
-}
-
-/* Imagen principal */
-.main-image {
-  max-width: 100%; /* Ancho máximo de la imagen */
-  height: auto; /* Mantiene la relación de aspecto original */
-}
-
-/* Título */
-.title {
-  font-size: 24px; /* Tamaño de fuente del título */
-  margin-top: 10px; /* Espacio superior */
-}
-
-/* Texto principal */
-.main-text {
-  font-size: 16px; /* Tamaño de fuente del texto principal */
-  margin-top: 10px; /* Espacio superior */
-}
-
-/* Botón de acción */
-.action-button {
-  margin-top: 20px; /* Espacio superior */
-  padding: 10px 20px; /* Espaciado interior del botón */
-  font-size: 18px; /* Tamaño de fuente del botón */
-}
-
-/* Pie de página */
-.footer {
-  font-size: 14px; /* Tamaño de fuente del pie de página */
-  margin-top: 20px; /* Espacio superior */
-}
-
 }
 
 

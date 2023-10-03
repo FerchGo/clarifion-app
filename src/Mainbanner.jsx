@@ -7,9 +7,6 @@ import DecorativeBoxthree from './DecorativeBoxthree'
 
 const Mainbanner = () => {
 
-
-
-
   return (
     <div className='frame9'>
             <div>

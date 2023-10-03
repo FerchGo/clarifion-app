@@ -17,6 +17,7 @@ import card6 from './assets/card6.png'
 import card7 from './assets/card7.png'
 import refound from './assets/guaratee.png'
 import Modal from './Modal';
+import './index.css'
 
 const DecorativeBoxtwo = () => {
 

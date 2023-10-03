@@ -1,6 +1,7 @@
 import '@radix-ui/themes/styles.css';
 import { Flex, Popover, Button,  Box, Avatar, TextArea, Checkbox, Text } from '@radix-ui/themes';
 import '@radix-ui/react-icons'
+import './index.css'
 
 
 const DecorativeBoxthree = () => {
