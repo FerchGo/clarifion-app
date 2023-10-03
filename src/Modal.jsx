@@ -8,11 +8,11 @@ function Modal({ open, onClose, onAccept }) {
   return ReactDOM.createPortal(
     <div className="modal-overlay">
       <div className="modal">
-        <h2>¿Aceptar la oferta?</h2>
-        <p>¿Estás seguro de que deseas aceptar esta oferta?</p>
+        <h2>Do you want to accept the offer?</h2>
+        <p>are you completely sure to accept this offer?</p>
         <div className="modal-buttons">
-          <button onClick={onAccept}>Aceptar</button>
-          <button onClick={onClose}>Cancelar</button>
+          <button onClick={onAccept} className='btnmodal1'>Yes, I will</button>
+          <button onClick={onClose} className='btnmodal2'>No, I wont</button>
         </div>
       </div>
     </div>,

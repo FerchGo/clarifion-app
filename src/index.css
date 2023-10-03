@@ -819,4 +819,13 @@
   cursor: pointer;
 }
 
+.btnmodal1{
+  border-radius: 20px;
+  background: #45d321d3;
+}
+
+.btnmodal2{
+  border-radius: 20px;
+  background: #c53434e1;
+}
 
