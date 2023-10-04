@@ -1,3 +1,8 @@
+body{
+  display: block;
+  margin: 0px;
+}
+
 
 :root{
   width: 100%;
@@ -829,3 +834,88 @@
   background: #c53434e1;
 }
 
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .layou{
+    display: flex;
+    width: 1200px;
+    height: 50px;
+  }
+
+  .layout-2 {
+    display: none;
+  }
+
+  .brands{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin-left: 125px;
+  }
+
+  .main-title{
+    display: block;
+    width: 10px;
+    height: 10px;
+    font-size: 20px;
+  }
+
+  .title-com1{
+    display: none;
+  }
+  .subtitle1{
+    display: none;
+  }
+
+  .head-layout{
+    display: flex;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    margin-left: 140px;
+  }
+
+  .newsection{
+    width: 400px;
+    height: 800px;
+    margin: 32px;
+  }
+
+  .frame9{
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .layout-3{
+    width: 90px;
+    height: 90px;
+  }
+
+  .subletter{
+    display: none;
+  }
+
+  .mobile-menu {
+    display: block; /* Mostrar un menú diferente para móviles */
+  }
+
+  .debox{
+    display: block; /* Cambiar a display en bloque */
+    width: 100%; /* Ocupar todo el ancho disponible */
+    max-width: 100%; /* Asegurarse de que no desborde el contenedor */
+    height: auto; /* Ajustar la altura automáticamente */
+    top: auto; /* Eliminar la posición superior */
+    left: auto; /* Eliminar la posición izquierda */
+    margin: 10px; /* Agregar un pequeño margen para separar elementos */
+    border-radius: 5px; /* Redondear las esquinas */
+    background-color: lightblue;
+  }
+
+  .footerbox{
+    display: none;
+  }
+
+}
